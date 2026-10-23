@@ -1,0 +1,42 @@
+name: User story
+description: A piece of product work, written from the member's point of view.
+labels: ["type: feature", "needs-triage"]
+body:
+  - type: dropdown
+    id: persona
+    attributes:
+      label: As a ...
+      options:
+        - Chef / kitchen professional
+        - Restaurant or hospitality business
+        - Producer / farmer
+        - Supplier / distributor
+        - Recruiter / employer
+        - Food professional (other)
+        - FoodZyn admin
+    validations:
+      required: true
+  - type: input
+    id: want
+    attributes:
+      label: I want to ...
+    validations:
+      required: true
+  - type: input
+    id: so-that
+    attributes:
+      label: So that ...
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] Given ..., when ..., then ...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes, designs, open questions

@@ -1,0 +1,42 @@
+name: Bug report
+description: Something does not work as expected.
+labels: ["type: bug", "needs-triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where
+      options:
+        - Web app
+        - Mobile app
+        - API
+        - Website
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: Browser or device, app version, account type (member, company page, recruiter).
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or logs
