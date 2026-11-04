@@ -10,14 +10,16 @@ wasted.
 
 ## What we're building
 
-- **Price lists published once.** Wholesalers and producers publish their
-  assortments and conditions in one place instead of mailing price lists.
+- **Price lists published once.** Wholesalers and producers are meant to
+  publish their assortments and conditions in one place instead of mailing
+  price lists.
 - **The real prices of your own suppliers.** Restaurants, hotels and caterers
-  see the current prices of the suppliers they work with, and only those.
-- **Order lists and orders.** Kitchens prepare their orders per supplier and,
-  in a later phase, send them through FoodZyn.
-- **A person confirms, software proposes.** Imports, prices and orders stay
-  suggestions until someone with the right role confirms them.
+  are meant to see the current prices of the suppliers they work with, and
+  only those.
+- **Order lists and orders.** Kitchens are meant to prepare their orders per
+  supplier and, in a later phase, send them through FoodZyn.
+- **A person confirms, software proposes.** Imports, prices and orders are to
+  stay suggestions until someone with the right role confirms them.
 
 FoodZyn is Swiss first: data hosted in Switzerland, German first, prices in CHF.
 
