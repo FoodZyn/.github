@@ -12,6 +12,7 @@ body:
         - Trade sales or operations (wholesaler, importer, distributor)
         - Trade admin
         - Producer (farm, dairy, bakery, butcher, winery)
+        - Gastro or Trade viewer (read only)
         - FoodZyn platform admin
     validations:
       required: true
