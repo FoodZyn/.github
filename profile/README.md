@@ -21,7 +21,8 @@ wasted.
 - **A person confirms, software proposes.** Imports, prices and orders are to
   stay suggestions until someone with the right role confirms them.
 
-FoodZyn is Swiss first: data hosted in Switzerland, German first, prices in CHF.
+FoodZyn is meant to be Swiss first: data hosted in Switzerland, German first,
+prices in CHF.
 
 ## Repositories
 
