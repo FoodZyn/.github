@@ -11,9 +11,15 @@ organization unless a repository says otherwise.
 ## Branches
 
 - `main` is always deployable. Never push to it directly — open a pull request.
-- Branch names: `<type>/<issue-number>-<short-description>`, for example
-  `feat/42-order-lists` or `fix/57-import-unit-mapping`. A coding agent whose
-  session gives it a fixed branch (`claude/…`, `codex/…`) keeps that name.
+- Branch names: `<type>/<issue-number>-<short-description>`, with `type` from
+  the commit types below and a few lower-case words joined by hyphens, for
+  example `feat/42-order-lists` or `fix/57-import-unit-mapping`; without an
+  issue, `<type>/<short-description>`, such as `docs/pr-workflow`.
+- Coding agents name their branches the same way. A session handed a generated
+  branch (`claude/…`, `codex/…`) creates a properly named one from `main` and
+  works and pushes there. Only where its environment can push nowhere else
+  does it keep the generated name and say so in the pull request. Dependabot's
+  branches keep their own names.
 - Once a branch's pull request is merged, the branch is done. Start the next
   change from an up-to-date `main`; never add commits on top of merged history.
 
