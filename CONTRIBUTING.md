@@ -74,8 +74,9 @@ Coding agents never push to `main`, never force-push a branch someone else
 works on, never skip, disable or loosen a test to make CI green, and merge only
 when a person tells them to.
 
-Dependabot's grouped updates are the exception: one commit each, squash-merged
-by the auto-merge workflow once CI is green.
+Dependabot's minor and patch groups are the exception: one commit each,
+squash-merged by the auto-merge workflow once CI is green. Major and security
+updates wait for a person and are merged like any other pull request.
 
 ## Architecture decisions
 
