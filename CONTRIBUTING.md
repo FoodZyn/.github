@@ -66,6 +66,22 @@ We work the same way whether a person, Claude Code or Codex writes the change:
    *later*. The loop ends when no blocker is left. List the findings with their
    category in the pull request's "Review" section; the review itself posts
    nothing to the pull request unless its author asks.
+
+   **A change people see gets a design review too.** When a pull request
+   changes what people see in an app or site (pages, components, layout, UI
+   texts), check every page it reaches with the impeccable skill,
+   `/impeccable critique <page>` and `/impeccable audit <page>`, at desktop
+   and phone width and in each role whose view differs; a repository's
+   `AGENTS.md` names its widths and how the review runs there. Use a local
+   app with synthetic data: never real customer data, and never save,
+   upload or submit anything on a live site or backend. Until the skill is
+   installed for an agent (Codex), the pull request says the design review
+   did not run, and the other person runs it before approving. Its findings
+   get the same categories; a WCAG 2.2 AA failure the change brings in is a
+   blocker, an older one *later*. A fixed blocker earns another round of the
+   review it came from, and of the design review too when the fix changes
+   what people see. List the findings next to the code review's and attach
+   the screenshots it took.
 4. **Mark it ready.** That starts CI; drafts are skipped. Every push to a ready
    pull request runs CI again, and private repositories share 2,000 Actions
    minutes a month, so collect fixes into one push.

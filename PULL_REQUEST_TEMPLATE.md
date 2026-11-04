@@ -13,9 +13,10 @@ run. -->
 ## Review
 
 <!-- Each confirmed finding of the code review on the draft (/code-review in
-Claude Code, /review in Codex) with its category: blocker (fixed before the
-merge), small (fixed in this round), later (the issue it became) or drop
-(why). "No findings" if there were none. -->
+Claude Code, /review in Codex) and, for changes people see, of the design
+review (/impeccable critique and audit), with its category: blocker (fixed
+before the merge), small (fixed in this round), later (the issue it became)
+or drop (why). "No findings" if there were none. -->
 
 ## Checklist
 
@@ -26,4 +27,4 @@ merge), small (fixed in this round), later (the issue it became) or drop
 - [ ] CI green, or skipped with `[skip ci]` and the local checks named above
 - [ ] Docs or ADR updated if behaviour or architecture changed
 - [ ] No secrets or real user data committed
-- [ ] Screenshots attached for UI changes
+- [ ] Visible changes: design review run, desktop and phone screenshots
