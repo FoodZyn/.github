@@ -1,26 +1,34 @@
 # FoodZyn
 
-**The professional network for the food industry.**
+**A digital network for the Swiss foodservice supply chain, still being built.**
 
-FoodZyn brings together everyone who makes food happen — chefs and kitchen teams,
-restaurants and hotels, farmers and producers, suppliers and distributors, food
-scientists, sommeliers, and the people who hire them.
+Today a kitchen buys from many suppliers, each with its own price list, its own
+layout and its own way of taking orders. FoodZyn is meant to connect what one
+business needs with how the others plan: from demand in gastronomy through
+trade to production, with less administrative back and forth and less food
+wasted.
 
 ## What we're building
 
-- **Profiles** that show what food professionals actually do: cuisines, techniques,
-  certifications, kitchens worked in, products made.
-- **Connections** between chefs, producers, suppliers and employers.
-- **A feed** for dishes, menus, harvests, sourcing stories and industry news.
-- **Company pages** for restaurants, producers, suppliers and hospitality groups.
-- **Jobs** built for hospitality and food production — from line cook to head of
-  procurement.
+- **Price lists published once.** Wholesalers and producers are meant to
+  publish their assortments and conditions in one place instead of mailing
+  price lists.
+- **The real prices of your own suppliers.** Restaurants, hotels and caterers
+  are meant to see the current prices of the suppliers they work with, and
+  only those.
+- **Order lists and orders.** Kitchens are meant to prepare their orders per
+  supplier and, in a later phase, send them through FoodZyn.
+- **A person confirms, software proposes.** Imports, prices and orders are to
+  stay suggestions until someone with the right role confirms them.
+
+FoodZyn is meant to be Swiss first: data hosted in Switzerland, German first,
+prices in CHF.
 
 ## Repositories
 
 | Repository | What it is |
 |---|---|
-| `platform` | The FoodZyn product: web app, API and mobile app (private) |
+| `platform` | The FoodZyn product: API, web app, later mobile (private) |
 | `website` | The public marketing site (private) |
 | `.github` | This profile and the shared contribution guidelines |
 

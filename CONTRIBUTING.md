@@ -12,15 +12,15 @@ organization unless a repository says otherwise.
 
 - `main` is always deployable. Never push to it directly — open a pull request.
 - Branch names: `<type>/<issue-number>-<short-description>`, for example
-  `feat/42-company-pages` or `fix/57-feed-pagination`.
+  `feat/42-order-lists` or `fix/57-import-unit-mapping`.
 
 ## Commits
 
 We use [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```text
-feat(feed): show sourcing stories from connected producers
-fix(jobs): keep salary range when editing a posting
+feat(catalogue): filter a supplier's articles by price status
+fix(imports): keep the original cell value when a row is corrected
 docs(adr): propose tech stack options
 ```
 
