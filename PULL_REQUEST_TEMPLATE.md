@@ -12,8 +12,10 @@ run. -->
 
 ## Review
 
-<!-- What the code review on the draft found (/code-review in Claude Code,
-/review in Codex), what was fixed and what was not a real problem. -->
+<!-- Each confirmed finding of the code review on the draft (/code-review in
+Claude Code, /review in Codex) with its category: blocker (fixed before the
+merge), small (fixed in this round), later (the issue it became) or drop
+(why). "No findings" if there were none. -->
 
 ## Checklist
 

@@ -45,8 +45,21 @@ We work the same way whether a person, Claude Code or Codex writes the change:
 3. **Review the draft.** Before anything else, run a code review of the whole
    pull request: `/code-review <PR number>` in Claude Code, `/review` against
    `main` in Codex (or `@codex review` on the pull request). Check every
-   finding against the code, fix the confirmed ones in follow-up commits and
-   push them together. Note in the pull request what the review found.
+   finding against the code and give each confirmed one a category:
+   - *blocker*: the change itself is wrong (a bug, a security hole, a broken
+     business rule, a test that proves nothing); fixed before the merge.
+   - *small*: a wrong comment, commit or pull request text, or a missing test
+     for what the pull request claims; fixed in the same round.
+   - *later*: true, but older than the pull request or outside its scope; it
+     becomes an issue (or a line in the repository's plan), linked from the
+     pull request.
+   - *drop*: taste, or already settled in an ADR or a decision log; not fixed.
+
+   Push the fixes together. Only fixed blockers earn another review, which
+   checks the fixes and looks for new blockers; its smaller findings go to
+   *later*. The loop ends when no blocker is left. List the findings with their
+   category in the pull request's "Review" section; the review itself posts
+   nothing to the pull request unless its author asks.
 4. **Mark it ready.** That starts CI; drafts are skipped. Every push to a ready
    pull request runs CI again, and private repositories share 2,000 Actions
    minutes a month, so collect fixes into one push.
