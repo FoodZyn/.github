@@ -7,7 +7,7 @@ names of customers, prices or credentials here.
 - Commits, branches and pull requests follow [CONTRIBUTING.md](CONTRIBUTING.md),
   the same for people, Claude Code and Codex: draft pull request, code review
   of the draft with every finding categorised (blocker, small, later, drop),
-  a design review with the impeccable skill when the user interface changes,
+  a design review with the impeccable skill when it changes what people see,
   ready for review, one approving review, merge commit.
 - The profile describes FoodZyn as being built: intentions ("is meant to"),
   never figures, customers or results.
