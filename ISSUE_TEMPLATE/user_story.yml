@@ -1,5 +1,5 @@
 name: User story
-description: A piece of product work, written from the member's point of view.
+description: A piece of product work, written from the point of view of a person in a business.
 labels: ["type: feature", "needs-triage"]
 body:
   - type: dropdown
@@ -7,13 +7,12 @@ body:
     attributes:
       label: As a ...
       options:
-        - Chef / kitchen professional
-        - Restaurant or hospitality business
-        - Producer / farmer
-        - Supplier / distributor
-        - Recruiter / employer
-        - Food professional (other)
-        - FoodZyn admin
+        - Gastro buyer or planner (restaurant, hotel, caterer, canteen)
+        - Gastro admin
+        - Trade sales or operations (wholesaler, importer, distributor)
+        - Trade admin
+        - Producer (farm, dairy, bakery, butcher, winery)
+        - FoodZyn platform admin
     validations:
       required: true
   - type: input
