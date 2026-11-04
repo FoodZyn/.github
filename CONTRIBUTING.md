@@ -66,6 +66,14 @@ We work the same way whether a person, Claude Code or Codex writes the change:
    *later*. The loop ends when no blocker is left. List the findings with their
    category in the pull request's "Review" section; the review itself posts
    nothing to the pull request unless its author asks.
+
+   **A change people see gets a design review too.** When a pull request
+   changes a user interface, check it on the running app, at desktop and
+   phone width, with the impeccable skill: `/impeccable critique <page>` and
+   `/impeccable audit <page>` for each page it changes (in Codex, the same
+   skill where it is installed). Its findings get the same categories and go
+   through the same loop, listed in the "Review" section next to the code
+   review's.
 4. **Mark it ready.** That starts CI; drafts are skipped. Every push to a ready
    pull request runs CI again, and private repositories share 2,000 Actions
    minutes a month, so collect fixes into one push.
