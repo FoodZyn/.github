@@ -31,8 +31,11 @@ Types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`, `perf`.
 - Keep pull requests small and focused on one issue; link it with `Closes #123`.
 - Fill in the pull request template, including how you tested the change.
 - At least one approving review before merging. CI must be green.
-- Squash-merge; the pull request title becomes the commit message, so write it as a
-  Conventional Commit.
+- Merge with a merge commit, never squash or rebase, so every commit of the pull
+  request stays on `main`. Make each commit one logical step with its own
+  Conventional Commit message, and write the pull request title as one too.
+- Dependabot's grouped updates are the exception: one commit each, squash-merged
+  by the auto-merge workflow.
 
 ## Architecture decisions
 
