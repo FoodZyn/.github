@@ -27,4 +27,4 @@ or drop (why). "No findings" if there were none. -->
 - [ ] CI green, or skipped with `[skip ci]` and the local checks named above
 - [ ] Docs or ADR updated if behaviour or architecture changed
 - [ ] No secrets or real user data committed
-- [ ] Visible changes: design review run, screenshots at 1280 and 390 px
+- [ ] Visible changes: design review run, desktop and phone screenshots
