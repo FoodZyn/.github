@@ -23,6 +23,7 @@ merge), small (fixed in this round), later (the issue it became) or drop
 - [ ] One logical step per commit
 - [ ] Tests added or updated where it makes sense
 - [ ] Code review run on the draft, confirmed findings fixed
+- [ ] CI green, or skipped with `[skip ci]` and the local checks named above
 - [ ] Docs or ADR updated if behaviour or architecture changed
 - [ ] No secrets or real user data committed
 - [ ] Screenshots attached for UI changes

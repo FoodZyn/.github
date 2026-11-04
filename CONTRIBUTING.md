@@ -69,9 +69,17 @@ We work the same way whether a person, Claude Code or Codex writes the change:
 4. **Mark it ready.** That starts CI; drafts are skipped. Every push to a ready
    pull request runs CI again, and private repositories share 2,000 Actions
    minutes a month, so collect fixes into one push.
+
+   **Skip CI where it has nothing to check.** When a push changes nothing CI
+   tests beyond what you already checked locally (documentation after
+   `markdownlint-cli2`, comments, templates), its head commit message carries
+   `[skip ci]` and the pull request says which checks ran locally. Code,
+   tests, dependencies, migrations, the Dockerfile and the workflows always
+   run CI.
 5. **Get one approving review** from the other side: `CODEOWNERS` requests it,
-   and GitHub never asks the author. CI must be green. Our plan does not let
-   GitHub enforce either for private repositories, so whoever merges checks both.
+   and GitHub never asks the author. CI must be green, or skipped as above.
+   Our plan does not let GitHub enforce either for private repositories, so
+   whoever merges checks both.
 6. **Merge with a merge commit**, never squash or rebase, titled
    `Merge pull request #<number>: <pull request title>`. Write the pull request
    title as a Conventional Commit. Then delete the branch.
