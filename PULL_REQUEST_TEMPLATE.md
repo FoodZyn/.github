@@ -5,6 +5,13 @@
 
 Closes #
 
+## Handover
+
+<!-- While the pull request is a draft or waits for someone else: state (what
+is done and pushed), next step, open questions and who decides, checks run,
+anything surprising. Keep it current; replace, do not append. Delete the
+section once the pull request is ready and nothing is open. -->
+
 ## How it was tested
 
 <!-- Commands run, screens checked, edge cases covered, what you could not

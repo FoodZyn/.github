@@ -1,13 +1,14 @@
 # Security Policy
 
-FoodZyn holds personal and professional data of its members. We take its security
-seriously.
+FoodZyn is meant to hold the business data of foodservice and trade businesses:
+price lists, documents, orders and the people who work with them. We take its
+security seriously.
 
 ## Reporting a vulnerability
 
 **Do not open a public issue for a security problem.**
 
-Contact an owner of the FoodZyn organization privately and include:
+Write to [security@foodzyn.com](mailto:security@foodzyn.com) and include:
 
 - what is affected (repository, URL, app version),
 - steps to reproduce,

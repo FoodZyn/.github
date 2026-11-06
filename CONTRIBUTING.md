@@ -47,7 +47,9 @@ We work the same way whether a person, Claude Code or Codex writes the change:
    lists them) on what you changed.
 2. **Open a draft.** Push the branch and open a draft pull request against
    `main`. Fill in the template; link the issue with `Closes #123`. Keep it
-   small and focused on one issue.
+   small and focused on one issue. Whenever work stops before it is done,
+   push it and write its state in the template's *Handover* section, so the
+   next person or agent session can continue from the pull request alone.
 3. **Review the draft.** Before anything else, run a code review of the whole
    pull request: `/code-review <PR number>` in Claude Code, `/review` against
    `main` in Codex (or `@codex review` on the pull request). Check every
